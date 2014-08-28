@@ -34958,7 +34958,7 @@ COMMAND:admins(playerid,params[])
 	        {
 
 	            if(aduty[i]) { format(tmp,sizeof(tmp),"Yes"); } else { format(tmp,sizeof(tmp),"No"); }
-	            format(str,sizeof(str),"Admin: %s (%d) | Duty: {33CCFF}%s{FFFFFF}",AccountInfo[i][aName],i,tmp);
+	            format(str,sizeof(str),"Admin: %s | (%d) | Duty: {33CCFF}%s{FFFFFF}",AccountInfo[i][aName],i,tmp);
 				SendClientMessageA(playerid,COLOR_WHITE,str);
 
 	        }
@@ -36424,7 +36424,7 @@ COMMAND:rules(playerid,params[])
         SendClientMessage(playerid,COLOR_YELLOW2,"________________________________");
 		SendClientMessage(playerid,COLOR_YELLOW2,"Untitled Roleplay Server Rules");
 		SendClientMessage(playerid,COLOR_WHITE,"Rules can be found on the website below. You've already accepted rules while registering...");
-		SendClientMessage(playerid,COLOR_WHITE,"http://editwebsite.com");
+		SendClientMessage(playerid,COLOR_WHITE,"http://http://localhost/forum");
 		SendClientMessage(playerid,COLOR_LIGHTBLUE,"If you need further assistance please use /assistme");
         return 1;
 
