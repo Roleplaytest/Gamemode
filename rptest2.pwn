@@ -36402,6 +36402,7 @@ COMMAND:owners(playerid,params[])
     {
 
 		SendClientMessage(playerid,COLOR_GREEN,"Tyrell");
+		SendClientMessage(playerid,COLOR_GREEN,"Adam");
         return 1;
 
     }
